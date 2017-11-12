@@ -5,9 +5,13 @@ attr_accessor :author, :title
     @author = author_name
   end
   def title
-    @title
+    if self.title
+      self.author.name
+    else
+      nil
+    end
   end
-
+  
 
 
 
