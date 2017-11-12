@@ -12,9 +12,9 @@ attr_accessor :name, :artist, :genre
 
   def artist_name
     @artist
-    
+
   end
-  
+
   def artist_name2
       if self.artist
         self.artist.name
