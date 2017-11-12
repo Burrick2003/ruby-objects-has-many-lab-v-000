@@ -11,7 +11,7 @@ attr_accessor :name
   def add_post(post_instance) #rspec sends in a post instance, going to link it with Author properties
     self.posts << post_instance
     post_instance.author = self
-    @@post_count += 1
+    @@posts += 1
   end
 
 end
