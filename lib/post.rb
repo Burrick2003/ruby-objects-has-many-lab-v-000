@@ -5,7 +5,7 @@ attr_accessor :author, :title
     @author = author_name
   end
   def title
-    if self.title
+    if self.author
       self.author.name
     else
       nil
