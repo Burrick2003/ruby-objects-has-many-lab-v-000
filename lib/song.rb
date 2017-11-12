@@ -13,7 +13,7 @@ attr_accessor :name, :artist, :genre
   def artist_name
     #@artist #why doesn't this work?
     if self.artist.name != nil
-      self.artist.name
+      @name
     else
       nil
     end
