@@ -12,8 +12,8 @@ attr_accessor :name, :artist, :genre
 
   def artist_name
     #@artist #why doesn't this work?  (artist in artist class not song)
-    #if self.artist.name != nil #not does it have an artist name, but is it an artist
-    output = ""
+    #if self.artist.name != nil #not does it have an artist name, but is it an existing artist (to be added later?)
+    output = "" #prob get rid of this, for test purposes
     if self.artist
       output << self.artist.name
 
