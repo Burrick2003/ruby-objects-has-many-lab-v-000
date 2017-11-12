@@ -16,5 +16,5 @@ attr_accessor :name
   def post_count
     @posts
   end
-  
+
 end
