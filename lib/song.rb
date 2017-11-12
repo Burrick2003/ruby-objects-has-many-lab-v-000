@@ -23,14 +23,7 @@ attr_accessor :name, :artist, :genre
   output
   end
 
-  def artist_name2
-      if self.artist
-        self.artist.name
-      else
-        nil
-      end
-    end
-
+  
 
 
 
