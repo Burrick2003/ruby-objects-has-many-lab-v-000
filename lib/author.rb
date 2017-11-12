@@ -1,7 +1,8 @@
 class Author
 attr_accessor :name
-
-  def initialize
+@@post_count = 0
+  def initialize(name_input)
+    self.name = name_input
   end
 
 
