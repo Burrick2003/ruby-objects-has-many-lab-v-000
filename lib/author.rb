@@ -8,7 +8,7 @@ attr_accessor :name
   end
 
   def posts
-    self.posts
+    @posts
   end
 
   def self.post_count #forgot class method to access class var
