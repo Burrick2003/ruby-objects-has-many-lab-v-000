@@ -7,7 +7,7 @@ attr_accessor :author, :title
   def title
     @title
   end
-  
+
 
 
 
