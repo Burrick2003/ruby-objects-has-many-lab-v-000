@@ -11,7 +11,7 @@ attr_accessor :author, :title
       nil
     end
   end
-  
+
 
 
 
