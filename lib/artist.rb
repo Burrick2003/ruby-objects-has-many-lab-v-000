@@ -14,7 +14,7 @@ end
 
   def add_song(title)
     @songs << title
-    title.artist = self
+    title.artist = self #doesn't create a new object, but gives existing object properties of 2 classes.  lesson kind of glossed over this
     @@song_count += 1
   end
 
