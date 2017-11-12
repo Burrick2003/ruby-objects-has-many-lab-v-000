@@ -5,7 +5,9 @@ attr_accessor :name
     self.name = name_input
     @posts = []
   end
-
+  def posts
+    @posts
+  end
 
 
 end
