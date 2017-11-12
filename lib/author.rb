@@ -14,9 +14,9 @@ attr_accessor :name
     @@posts += 1
   end
   def add_post_by_title(post_to_be)#like above but generates the post instance, not respectively
-    linked_post = Post.new(post_to_be)
-    @posts << linked_post
-    post_to_be.author=(self)
+    post = Post.new(post_to_be)
+    @posts << post
+    post_to_be.author = self
     @@post_count+=1
   end
 end
