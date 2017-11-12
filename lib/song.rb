@@ -15,7 +15,7 @@ attr_accessor :name, :artist, :genre
     #if self.artist.name != nil #not does it have an artist name, but is it an artist
     if self.artist
       self.artist.name
-      
+
     else
       nil
     end
