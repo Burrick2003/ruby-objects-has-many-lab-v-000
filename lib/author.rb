@@ -23,8 +23,9 @@ attr_accessor :name
 
   def add_post_by_title(post_to_be)#like above but generates the post instance, not respectively
     post = Post.new(post_to_be) #that post over there
-    @posts << post
+    
     post.author = self #is here
+    @posts << post
     @@post_count+=1
   end
 
