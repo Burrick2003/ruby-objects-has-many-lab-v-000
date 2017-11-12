@@ -23,7 +23,7 @@ attr_accessor :name, :artist, :genre
   output
   end
 
-  
+
 
 
 
