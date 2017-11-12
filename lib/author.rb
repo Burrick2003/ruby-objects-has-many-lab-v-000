@@ -2,8 +2,8 @@ class Author
 attr_accessor :name
 @@post_count = 0
 
-  def initialize(author_name)
-    self.name = author.name
+  def initialize(name_input)
+    self.name = name_input
     @posts = []
   end
 
