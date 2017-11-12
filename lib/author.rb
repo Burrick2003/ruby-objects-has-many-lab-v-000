@@ -11,7 +11,7 @@ attr_accessor :name
     @posts
   end
 
-  def post_count
+  def self.post_count #forgot class method
     @@post_count
   end
 
