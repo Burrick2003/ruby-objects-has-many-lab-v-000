@@ -1,6 +1,6 @@
 class Author
 attr_accessor :name
-@@post_count = 0
+@@post_count = 0 #hardcoded in the rspec, can't shange name
 
   def initialize(input)
     self.name = input
