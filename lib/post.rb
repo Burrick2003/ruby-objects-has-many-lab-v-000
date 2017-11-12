@@ -2,7 +2,7 @@ class Post
 attr_accessor :author, :title
 
   def initialize(author_name)
-    @author = author_name
+    @title = title
   end
   def author_name #called directly by spec, was using title
     if self.author
