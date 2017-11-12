@@ -1,6 +1,6 @@
 class Author
 attr_accessor :name
-@@post_count = 0
+@@posts = 0
 
   def initialize(name_input)
     self.name = name_input
@@ -12,20 +12,20 @@ attr_accessor :name
   end
 
   def self.post_count #forgot class method
-    @@post_count
+    @@posts
   end
 
   def add_post(post) #rspec sends in a post instance, going to link it with Author properties
     self.posts << post
     post.author = self
-    @@post_count += 1
+    @@posts += 1
   end
 
   def add_post_by_title(post_to_be)#like above but generates the post instance, not respectively
     post = Post.new(post_to_be)
     @posts << post
     post.author = self
-    @@post_count+=1
+    @@posts+=1
   end
 
 end
