@@ -14,7 +14,7 @@ end
 
   def add_song(title)
     self.songs << title
-    title.artist = self #doesn't create a 
+    title.artist = self #doesn't create a
     @@song_count += 1
   end
 
