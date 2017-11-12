@@ -17,7 +17,7 @@ attr_accessor :name, :artist, :genre
     else
       nil
     end
-    
+
   end
 
   def artist_name2
