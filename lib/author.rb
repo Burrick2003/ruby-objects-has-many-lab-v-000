@@ -8,10 +8,10 @@ attr_accessor :name
   end
 
   def posts
-    @posts
+    self.posts
   end
 
-  def self.post_count #forgot class method
+  def self.post_count #forgot class method to access class var
     @@post_count
   end
 
@@ -21,7 +21,7 @@ attr_accessor :name
     @@post_count += 1
   end
 
-  def add_post_by_title(post_to_be)#like above but generates the post instance, not respectively
+  def add_post_by_title(post_to_be)#like above but generates the post instance
     newpost = Post.new(post_to_be) #that post over there
     newpost.author = self #is here
     @posts << newpost
