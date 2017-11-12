@@ -13,7 +13,7 @@ attr_accessor :name
     post_instance.author = self
     @@posts += 1
   end
-  def post_count
+  def posts
     @posts
   end
 
